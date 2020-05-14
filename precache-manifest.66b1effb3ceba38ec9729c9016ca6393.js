@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "c6bf75f6cc48b3acf4ab",
+    "revision": "7cfd2b1a138ba9a4ace9",
     "url": "/react-pogoda/static/css/main.4343ecae.chunk.css"
   },
   {
-    "revision": "c6bf75f6cc48b3acf4ab",
-    "url": "/react-pogoda/static/js/main.b4637575.chunk.js"
+    "revision": "7cfd2b1a138ba9a4ace9",
+    "url": "/react-pogoda/static/js/main.5788cba5.chunk.js"
   },
   {
     "revision": "2f10cb7b09131f178e84",
@@ -92,7 +92,7 @@ self.__precacheManifest = [
     "url": "/react-pogoda/static/media/nature.272ecf33.jpg"
   },
   {
-    "revision": "b152608be87cf18555e02b0db452daa5",
+    "revision": "16f0fa4eefd9f2a676fe50c54b8a3249",
     "url": "/react-pogoda/index.html"
   }
 ];
