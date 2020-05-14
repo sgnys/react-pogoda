@@ -45,7 +45,7 @@ class App extends Component {
     }))
 
     if (this.state.value) {
-      const APICurrentWeather = `http://api.openweathermap.org/data/2.5/weather?q=${this.state.value}&appid=${ApiKeyCurrentWeather}&units=metric&lang=pl`
+      const APICurrentWeather = `//api.openweathermap.org/data/2.5/weather?q=${this.state.value}&appid=${ApiKeyCurrentWeather}&units=metric&lang=pl`
 
       fetch(APICurrentWeather)
         .then(response => {
@@ -95,7 +95,7 @@ class App extends Component {
   componentDidUpdate(prevProps, prevState) {
     if (this.state.isSubmitted) {
 
-      const APIForecastWeather = `http://api.openweathermap.org/data/2.5/forecast?q=${this.state.value}&appid=${ApiKeyForecastWeather}&units=metric&lang=pl`
+      const APIForecastWeather = `//api.openweathermap.org/data/2.5/forecast?q=${this.state.value}&appid=${ApiKeyForecastWeather}&units=metric&lang=pl`
 
       if (this.state.value) {
         fetch(APIForecastWeather)
