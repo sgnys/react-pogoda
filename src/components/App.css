@@ -1,0 +1,19 @@
+.weather {
+  text-align: center;
+  color: white
+}
+
+.weather h1 {
+  width: 80%;
+  height: 86px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 10%;
+  font-size: 46px;
+  line-height: 86px;
+  text-transform: uppercase;
+  letter-spacing: 30px;
+  word-spacing: 50px;
+  box-shadow: 0 0 10px 1px white;
+  background-color: rgba(0, 0, 0, .4);
+}

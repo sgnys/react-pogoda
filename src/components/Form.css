@@ -1,0 +1,46 @@
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+form input {
+  margin: 0px 15px 15px 15px;
+  padding: 10px 15px;
+  height: 40px;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, .5);
+  color: white;
+}
+
+form input:focus {
+  background-color: #fff;
+  color: black;
+  transition: .3s
+}
+
+form input:focus::placeholder {
+  color: black
+}
+
+input::placeholder {
+  color: #ddd;
+  font-size: 16px;
+}
+
+form button {
+  margin: 0px 15px 15px 15px;
+  padding: 10px 15px;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, .5);
+  color: white;
+  border: 1px solid black;
+  cursor: pointer;
+  outline: none;
+}
+
+form button:hover {
+  background-color: black;
+  color: white;
+  border-color: white;
+  transition: .4s;
+
+}
